@@ -22,7 +22,11 @@ const Navbar = () => {
             window.scrollTo(0, 0); // Scrolls to top of page
           }}
         >
-          <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
+          <img
+            src={logo}
+            alt="logo"
+            className="w-9 h-9 object-contain rounded-full"
+          />
           <p className="text-white text-[18px] font-bold flex cursor-pointer">
             Phahla &nbsp;
             <span className="sm:block hidden">| JS Mastery</span>

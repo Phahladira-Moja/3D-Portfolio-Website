@@ -45,11 +45,24 @@ const About = () => {
         variants={fadeIn}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a skilled software engineer with experience in Typescript,
-        Javascript, and expertise in frameworks like react, Node.js and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        I'm a software engineer with a passion for learning and a broad range of
+        experience in various programming languages and frameworks. I'm familiar
+        with languages like C#/.NET, Golang, Java, JavaScript & TypeScript, and
+        frameworks such as Flutter, React & React Native, Angular, and Ionic.
+        Additionally, I've had the opportunity to work hands-on with Firebase
+        and AWS services, and I'm proud to have earned my AWS Certified Cloud
+        Practitioner certification. I also have a background that spans both SQL
+        and NoSQL databases, which I believe showcases my adaptability in
+        handling data.
+        <br />
+        <br />
+        While I do possess technical skills, I'm equally dedicated to fostering
+        collaborative relationships with clients. My goal is to provide
+        down-to-earth, scalable solutions that address real-world challenges. By
+        combining creative ideas with the latest technology, I've managed to
+        create user-friendly solutions that emphasize efficiency and
+        practicality. I'm excited to work together to give life to your concepts
+        and explore new avenues of innovation. forward.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
