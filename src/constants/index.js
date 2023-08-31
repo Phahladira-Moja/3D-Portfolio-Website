@@ -75,14 +75,14 @@ const services = [
 ];
 
 const technologies = [
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
+  // {
+  //   name: "HTML 5",
+  //   icon: html,
+  // },
+  // {
+  //   name: "CSS 3",
+  //   icon: css,
+  // },
   {
     name: "JavaScript",
     icon: javascript,
@@ -91,10 +91,10 @@ const technologies = [
     name: "TypeScript",
     icon: typescript,
   },
-  {
-    name: "Angular",
-    icon: angular,
-  },
+  // {
+  //   name: "Angular",
+  //   icon: angular,
+  // },
   {
     name: "Next",
     icon: next,
@@ -103,14 +103,14 @@ const technologies = [
     name: "React JS",
     icon: reactjs,
   },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Ionic",
-    icon: ionic,
-  },
+  // {
+  //   name: "Redux Toolkit",
+  //   icon: redux,
+  // },
+  // {
+  //   name: "Ionic",
+  //   icon: ionic,
+  // },
   {
     name: "Tailwind CSS",
     icon: tailwind,
@@ -139,10 +139,10 @@ const technologies = [
     name: "Postgres",
     icon: postgres,
   },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
+  // {
+  //   name: "Three JS",
+  //   icon: threejs,
+  // },
   {
     name: "git",
     icon: git,
@@ -151,10 +151,10 @@ const technologies = [
     name: "docker",
     icon: docker,
   },
-  {
-    name: "Kube",
-    icon: kube,
-  },
+  // {
+  //   name: "Kube",
+  //   icon: kube,
+  // },
 ];
 
 const experiences = [
