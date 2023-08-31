@@ -28,8 +28,8 @@ const Navbar = () => {
             className="w-9 h-9 object-contain rounded-full"
           />
           <p className="text-white text-[18px] font-bold flex cursor-pointer">
-            Phahla &nbsp;
-            <span className="sm:block hidden">| JS Mastery</span>
+            Phahladira&nbsp;
+            <span className="sm:block hidden">S Moja</span>
           </p>
         </Link>
         <ul className="list-none hidden sm:flex flex-row gap-10">
