@@ -47,6 +47,7 @@ import promptopia from "./projects/promptopia.png";
 import spotify from "./projects/spotify.png";
 import sumz from "./projects/sumz.png";
 import sushi_sushi from "./projects/sushi_sushi.png";
+import portfolio from "./projects/portfolio.png";
 
 export {
   logo,
@@ -81,6 +82,7 @@ export {
   spotify,
   sumz,
   sushi_sushi,
+  portfolio,
   angular,
   dotnet,
   flutter,

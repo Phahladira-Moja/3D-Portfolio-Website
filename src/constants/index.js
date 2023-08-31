@@ -38,6 +38,7 @@ import {
   hoobank,
   nft,
   sushi_sushi,
+  portfolio,
 } from "../assets";
 
 export const navLinks = [
@@ -52,6 +53,10 @@ export const navLinks = [
   {
     id: "contact",
     title: "Contact",
+  },
+  {
+    id: "https://github.com/Phahladira-Moja/",
+    title: "Github",
   },
 ];
 
@@ -402,7 +407,7 @@ const projects = [
   {
     name: "Chat-GPT Clone",
     description:
-      "Converse effortlessly with our ChatGPT clone. Engage in natural, insightful conversations. Your AI-powered chat partner for any topic.",
+      "Converse effortlessly with our ChatGPT clone. Engage in natural, insightful conversations. Your AI-powered chat partner for any topic you're curious about.",
     tags: [
       {
         name: "react",
@@ -483,6 +488,28 @@ const projects = [
     image: sushi_sushi,
     deployed_link: "https://sushi-landing-app.vercel.app/",
     source_code_link: "https://github.com/Phahladira-Moja/sushi-landing-app",
+  },
+  {
+    name: "3D Portfolio Website 😂",
+    description:
+      "Step into innovation with our 3D portfolio website. Elevate your experience and tech achievements through immersive, interactive storytelling.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "threejs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: portfolio,
+    deployed_link: "https://3-d-portfolio-website-rosy.vercel.app/",
+    source_code_link: "https://github.com/Phahladira-Moja/3D-Portfolio-Website",
   },
 ];
 
