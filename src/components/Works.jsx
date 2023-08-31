@@ -94,6 +94,15 @@ const Works = () => {
           links to code repositories and live demos in it. It reflects my
           ability to solve complex problems, work with different technologies,
           and manage projects effectively.
+          <br />
+          <br />
+          The showcased projects below provide a glimpse of my portfolio, which
+          extends beyond this selection. My experience encompasses the
+          development of React-Native and Flutter Apps, alongside backend
+          projects employing Golang, .NET, and NodeJs. These initiatives have
+          been integrated with various AWS services, including DynamoDB and
+          Lambda Functions. Additional projects can be explored on my GitHub
+          profile.
         </motion.p>
       </div>
 
