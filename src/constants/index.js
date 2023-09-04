@@ -174,7 +174,7 @@ const experiences = [
     points: [
       "Create a dashboard system so that they can move their current information from their previous system to the new one. ",
       "Connect the dashboard to their subdomain.",
-      "IConnect their dashboard to a backend that emails students and tutors once an allocation has been made",
+      "Connect their dashboard to a backend that emails students and tutors once an allocation has been made",
     ],
   },
 ];
