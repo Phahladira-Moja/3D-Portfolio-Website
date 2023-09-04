@@ -25,13 +25,7 @@ import {
   homyz,
   airbnb,
   spotify,
-  apparel,
-  apparel_admin,
-  codex,
-  hoobank,
-  nft,
   sushi_sushi,
-  portfolio,
   julio_pp,
 } from "../assets";
 
