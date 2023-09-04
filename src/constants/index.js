@@ -296,28 +296,28 @@ const projects = [
     source_code_link:
       "https://github.com/Phahladira-Moja/full-stack-real-estate-web-app",
   },
-  {
-    name: "Spotify Clone",
-    description:
-      "Immerse yourself in music with our Spotify clone. Discover, play, and curate endless playlists. Your perfect soundtrack, anytime, anywhere.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: spotify,
-    deployed_link: "https://spotify-clone-nextjs-theta.vercel.app/",
-    source_code_link: "https://github.com/Phahladira-Moja/spotify-clone-nextjs",
-  },
+  // {
+  //   name: "Spotify Clone",
+  //   description:
+  //     "Immerse yourself in music with our Spotify clone. Discover, play, and curate endless playlists. Your perfect soundtrack, anytime, anywhere.",
+  //   tags: [
+  //     {
+  //       name: "nextjs",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "supabase",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "tailwind",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: spotify,
+  //   deployed_link: "https://spotify-clone-nextjs-theta.vercel.app/",
+  //   source_code_link: "https://github.com/Phahladira-Moja/spotify-clone-nextjs",
+  // },
   // {
   //   name: "Sushi Sushi",
   //   description:
