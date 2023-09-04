@@ -50,6 +50,7 @@ import sushi_sushi from "./projects/sushi_sushi.png";
 import portfolio from "./projects/portfolio.png";
 
 import julio_pp from "./testimonial/julio.jpg";
+import joey_pp from "./testimonial/joey.jfif";
 
 export {
   logo,
@@ -100,4 +101,5 @@ export {
   safari,
   internet,
   julio_pp,
+  joey_pp,
 };

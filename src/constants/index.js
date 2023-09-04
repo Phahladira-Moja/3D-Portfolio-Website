@@ -27,6 +27,7 @@ import {
   spotify,
   sushi_sushi,
   julio_pp,
+  joey_pp,
 } from "../assets";
 
 export const navLinks = [
@@ -112,10 +113,10 @@ const technologies = [
     name: "Postgres",
     icon: postgres,
   },
-  {
-    name: "git",
-    icon: git,
-  },
+  // {
+  //   name: "git",
+  //   icon: git,
+  // },
   {
     name: "docker",
     icon: docker,
@@ -183,17 +184,17 @@ const testimonials = [
     testimonial:
       "Phahla is not only a great person but also an incredible professional, always engaged to deliver the best code to each feature. His eager to learn and improve takes him to the next level. I'm really glad that we are in the same team.",
     name: "Julio Cunha",
-    designation: "Senior Developer",
+    designation: "Senior Backend Developer",
     company: "Konk Consulting",
     image: julio_pp,
   },
   {
     testimonial:
       "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    name: "Joey Malope",
+    designation: "Senior Frontend Developer",
+    company: "Macaroni Inc",
+    image: joey_pp,
   },
   {
     testimonial:
@@ -317,28 +318,28 @@ const projects = [
     deployed_link: "https://spotify-clone-nextjs-theta.vercel.app/",
     source_code_link: "https://github.com/Phahladira-Moja/spotify-clone-nextjs",
   },
-  {
-    name: "Sushi Sushi",
-    description:
-      "Savor exquisite flavors at our sushi restaurant. Immerse in Japanese culinary artistry. Reserve a table for an unforgettable dining experience. Sushi Landing page.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "aos",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: sushi_sushi,
-    deployed_link: "https://sushi-landing-app.vercel.app/",
-    source_code_link: "https://github.com/Phahladira-Moja/sushi-landing-app",
-  },
+  // {
+  //   name: "Sushi Sushi",
+  //   description:
+  //     "Savor exquisite flavors at our sushi restaurant. Immerse in Japanese culinary artistry. Reserve a table for an unforgettable dining experience. Sushi Landing page.",
+  //   tags: [
+  //     {
+  //       name: "react",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "aos",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "css",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: sushi_sushi,
+  //   deployed_link: "https://sushi-landing-app.vercel.app/",
+  //   source_code_link: "https://github.com/Phahladira-Moja/sushi-landing-app",
+  // },
 ];
 
 export { services, technologies, experiences, testimonials, projects };
