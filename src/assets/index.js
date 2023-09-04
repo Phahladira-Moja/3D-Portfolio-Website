@@ -49,6 +49,8 @@ import sumz from "./projects/sumz.png";
 import sushi_sushi from "./projects/sushi_sushi.png";
 import portfolio from "./projects/portfolio.png";
 
+import julio_pp from "./testimonial/julio.jpg";
+
 export {
   logo,
   backend,
@@ -97,4 +99,5 @@ export {
   golang,
   safari,
   internet,
+  julio_pp,
 };

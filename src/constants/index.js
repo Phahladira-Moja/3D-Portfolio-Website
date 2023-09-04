@@ -5,23 +5,16 @@ import {
   web,
   javascript,
   typescript,
-  html,
-  css,
   reactjs,
-  redux,
   tailwind,
   nodejs,
   mongodb,
   git,
   docker,
-  threejs,
-  angular,
   dotnet,
-  kube,
   postgres,
   next,
   flutter,
-  ionic,
   mnr,
   blackph,
   tutor,
@@ -39,6 +32,7 @@ import {
   nft,
   sushi_sushi,
   portfolio,
+  julio_pp,
 } from "../assets";
 
 export const navLinks = [
@@ -80,14 +74,6 @@ const services = [
 ];
 
 const technologies = [
-  // {
-  //   name: "HTML 5",
-  //   icon: html,
-  // },
-  // {
-  //   name: "CSS 3",
-  //   icon: css,
-  // },
   {
     name: "JavaScript",
     icon: javascript,
@@ -96,10 +82,6 @@ const technologies = [
     name: "TypeScript",
     icon: typescript,
   },
-  // {
-  //   name: "Angular",
-  //   icon: angular,
-  // },
   {
     name: "Next",
     icon: next,
@@ -108,14 +90,6 @@ const technologies = [
     name: "React JS",
     icon: reactjs,
   },
-  // {
-  //   name: "Redux Toolkit",
-  //   icon: redux,
-  // },
-  // {
-  //   name: "Ionic",
-  //   icon: ionic,
-  // },
   {
     name: "Tailwind CSS",
     icon: tailwind,
@@ -144,10 +118,6 @@ const technologies = [
     name: "Postgres",
     icon: postgres,
   },
-  // {
-  //   name: "Three JS",
-  //   icon: threejs,
-  // },
   {
     name: "git",
     icon: git,
@@ -156,40 +126,9 @@ const technologies = [
     name: "docker",
     icon: docker,
   },
-  // {
-  //   name: "Kube",
-  //   icon: kube,
-  // },
 ];
 
 const experiences = [
-  {
-    title: "Full-Stack Software Engineer",
-    company_name: "123 Tutors",
-    icon: tutor,
-    iconBg: "#E6DEDD",
-    date: "June 2021 - September 2021",
-    points: [
-      "Create a dashboard system so that they can move their current information from their previous system to the new one. ",
-      "Connect the dashboard to their subdomain.",
-      "IConnect their dashboard to a backend that emails students and tutors once an allocation has been made",
-    ],
-  },
-  {
-    title: "Full-Stack Software Engineer",
-    company_name: "Monkey & River",
-    icon: mnr,
-    iconBg: "#383E56",
-    date: "April 2022 - October 2022",
-    points: [
-      "Create a serverless firebase backend for a data-free app, hosted on Moya app.",
-      "Work on insurance details capturing form in Angular, for Momentum.",
-      "Worked on an International remittance application using Ionic.",
-      "Creating a CI/CD Pipeline using AWS copilot.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-    ],
-  },
   {
     title: "Full-Stack Software Engineer",
     company_name: "EPI-USE LABS",
@@ -216,16 +155,43 @@ const experiences = [
       "Implementing responsive design and ensuring cross-browser compatibility.",
     ],
   },
+  {
+    title: "Full-Stack Software Engineer",
+    company_name: "Monkey & River",
+    icon: mnr,
+    iconBg: "#383E56",
+    date: "April 2022 - October 2022",
+    points: [
+      "Create a serverless firebase backend for a data-free app, hosted on Moya app.",
+      "Work on insurance details capturing form in Angular, for Momentum.",
+      "Worked on an International remittance application using Ionic.",
+      "Creating a CI/CD Pipeline using AWS copilot.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+    ],
+  },
+  {
+    title: "Full-Stack Software Engineer",
+    company_name: "123 Tutors",
+    icon: tutor,
+    iconBg: "#E6DEDD",
+    date: "June 2021 - September 2021",
+    points: [
+      "Create a dashboard system so that they can move their current information from their previous system to the new one. ",
+      "Connect the dashboard to their subdomain.",
+      "IConnect their dashboard to a backend that emails students and tutors once an allocation has been made",
+    ],
+  },
 ];
 
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "Phahla is not only a great person but also an incredible professional, always engaged to deliver the best code to each feature. His eager to learn and improve takes him to the next level. I'm really glad that we are in the same team.",
+    name: "Julio Cunha",
+    designation: "Senior Developer",
+    company: "Konk Consulting",
+    image: julio_pp,
   },
   {
     testimonial:
@@ -291,6 +257,28 @@ const projects = [
     source_code_link: "https://github.com/Phahladira-Moja/open_ai_summarizer",
   },
   {
+    name: "Airbnb Clone",
+    description:
+      "Experience a world of possibilities with our Airbnb clone. Find unique stays and unforgettable adventures wherever you go. Experience what others experience.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "prisma",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: airbnb,
+    deployed_link: "https://accomodation-booking-nextjs-clone.vercel.app/",
+    source_code_link: "https://github.com/Phahladira-Moja/airbnb-next-clone",
+  },
+  {
     name: "Homyz",
     description:
       "Explore your dream home effortlessly. Our property web-app lets you book house viewings seamlessly. Your new home journey starts here.",
@@ -314,29 +302,6 @@ const projects = [
       "https://github.com/Phahladira-Moja/full-stack-real-estate-web-app",
   },
   {
-    name: "Airbnb Clone",
-    description:
-      "Experience a world of possibilities with our Airbnb clone. Find unique stays and unforgettable adventures wherever you go. Experience what others experience.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "prisma",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: airbnb,
-    deployed_link: "https://accomodation-booking-nextjs-clone.vercel.app/",
-    source_code_link: "https://github.com/Phahladira-Moja/airbnb-next-clone",
-  },
-
-  {
     name: "Spotify Clone",
     description:
       "Immerse yourself in music with our Spotify clone. Discover, play, and curate endless playlists. Your perfect soundtrack, anytime, anywhere.",
@@ -359,115 +324,6 @@ const projects = [
     source_code_link: "https://github.com/Phahladira-Moja/spotify-clone-nextjs",
   },
   {
-    name: "Apparel&Apparel",
-    description:
-      "Elevate your style with our apparel e-commerce store. Discover the latest trends, quality fabrics, and express your unique fashion.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "node",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: apparel,
-    deployed_link: "https://ecommerce-store-nextjs-sable.vercel.app/",
-    source_code_link:
-      "https://github.com/Phahladira-Moja/ecommerce-store-nextjs",
-  },
-  {
-    name: "Apparel&Apparel Admin",
-    description:
-      "Explore your dream home effortlessly. Our property web-app lets you book house viewings seamlessly. Your new home journey starts here.",
-    tags: [
-      {
-        name: "nodejs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "prisma",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: apparel_admin,
-    deployed_link: "https://ecommerce-admin-nextjs-psi.vercel.app/",
-    source_code_link:
-      "https://github.com/Phahladira-Moja/ecommerce-admin-nextjs",
-  },
-  {
-    name: "Chat-GPT Clone",
-    description:
-      "Converse effortlessly with our ChatGPT clone. Engage in natural, insightful conversations. Your AI-powered chat partner for any topic you're curious about.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "nodejs",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: codex,
-    deployed_link: "https://open-ai-codex-kappa.vercel.app/",
-    source_code_link: "https://github.com/Phahladira-Moja/open_ai_codex",
-  },
-
-  {
-    name: "HooBank",
-    description:
-      "Experience banking reimagined. Our digital bank offers seamless transactions, robust security, and financial empowerment at your fingertips.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "green-text-gradient",
-      },
-    ],
-    image: hoobank,
-    deployed_link: "https://bank-modern-app-bice.vercel.app/",
-    source_code_link: "https://github.com/Phahladira-Moja/bank_modern_app",
-  },
-  {
-    name: "NFT Showcase",
-    description:
-      "Unlock a world of digital art with our NFT Showcase app. Explore, collect, and display unique pieces on the blockchain with elegance.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "react-native",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: nft,
-    deployed_link: "https://nft-app-showcase-ruddy.vercel.app/",
-    source_code_link: "https://github.com/Phahladira-Moja/nft_app_showcase",
-  },
-  {
     name: "Sushi Sushi",
     description:
       "Savor exquisite flavors at our sushi restaurant. Immerse in Japanese culinary artistry. Reserve a table for an unforgettable dining experience. Sushi Landing page.",
@@ -488,28 +344,6 @@ const projects = [
     image: sushi_sushi,
     deployed_link: "https://sushi-landing-app.vercel.app/",
     source_code_link: "https://github.com/Phahladira-Moja/sushi-landing-app",
-  },
-  {
-    name: "3D Portfolio Website 😂",
-    description:
-      "Step into innovation with our 3D portfolio website. Elevate your experience and tech achievements through immersive, interactive storytelling.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "threejs",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: portfolio,
-    deployed_link: "https://3-d-portfolio-website-rosy.vercel.app/",
-    source_code_link: "https://github.com/Phahladira-Moja/3D-Portfolio-Website",
   },
 ];
 
