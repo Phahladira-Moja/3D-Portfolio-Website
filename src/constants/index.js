@@ -24,10 +24,9 @@ import {
   sumz,
   homyz,
   airbnb,
-  spotify,
-  sushi_sushi,
   julio_pp,
   joey_pp,
+  kube,
 } from "../assets";
 
 export const navLinks = [
@@ -121,6 +120,10 @@ const technologies = [
     name: "docker",
     icon: docker,
   },
+  {
+    name: "kube",
+    icon: kube,
+  },
 ];
 
 const experiences = [
@@ -190,20 +193,20 @@ const testimonials = [
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+      "Phahla's the kind of developer you want on you team, whatever he didn't know by COB he'd know it by the next morning. So he always went above the call of duty to get the job done, so it made working with him an absolute delight.",
     name: "Joey Malope",
     designation: "Senior Frontend Developer",
     company: "Macaroni Inc",
     image: joey_pp,
   },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
+  // {
+  //   testimonial:
+  //     "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+  //   name: "Lisa Wang",
+  //   designation: "CTO",
+  //   company: "456 Enterprises",
+  //   image: "https://randomuser.me/api/portraits/women/6.jpg",
+  // },
 ];
 
 const projects = [
