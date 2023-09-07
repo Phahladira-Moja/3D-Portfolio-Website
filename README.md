@@ -1,1 +1,1 @@
-![plot](assets/1.png)
+![plot](src/assets/readme/1.png)
